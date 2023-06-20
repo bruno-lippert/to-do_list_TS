@@ -11,7 +11,7 @@ export default function ItemList({ item }: Props) {
     const [isChecked, setIsChecked] = useState(item.done)
 
     const handleClick = () => {
-        
+
     }
 
     return (
@@ -21,7 +21,6 @@ export default function ItemList({ item }: Props) {
             <div className='deleteContainer'>
                 <div className='deleteButton' onClick={handleClick}><BsFillTrash3Fill /></div>
             </div>
-            
         </Style.Container>
     )
 }
