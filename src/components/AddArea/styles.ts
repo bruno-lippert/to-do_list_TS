@@ -6,7 +6,7 @@ export const Container = styled.div`
     align-items: center;
     border: 1px solid #555;
     border-radius: 10px;
-    padding-left: 10px;
+    padding: 10px;
     margin: 20px 0;
 
     .image {
@@ -14,12 +14,13 @@ export const Container = styled.div`
     }
 
     input {
-        color:#CCC;
+        color:#FFF;
         background-color: #17181F;
         border: 0px;
         outline: 0;
         padding: 5px;
         font-size: 1em;
-        width: 95%;
+        /* width: 95%; */
+        flex: 1;
     }
 `;

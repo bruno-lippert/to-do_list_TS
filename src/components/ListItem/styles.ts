@@ -23,5 +23,15 @@ export const Container = styled.div<ContainerProps>(({ done }: ContainerProps) =
         color: #CCC;
         text-decoration: ${done ? 'line-through' : 'initial'};
     }
+
+    .deleteContainer {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+    }
+
+    .deleteButton {
+        cursor: pointer;
+    }
 `
 ));
