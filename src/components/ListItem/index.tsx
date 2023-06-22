@@ -24,5 +24,6 @@ export default function ItemList({ item, position, handleRemoveTask }: Props) {
                 <div className='deleteButton' onClick={()=>handleClick(position)}><BsFillTrash3Fill /></div>
             </div>
         </Style.Container>
+        
     )
 }
