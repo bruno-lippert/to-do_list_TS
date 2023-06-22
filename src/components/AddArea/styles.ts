@@ -23,4 +23,11 @@ export const Container = styled.div`
         /* width: 95%; */
         flex: 1;
     }
+
+    .send {
+        color: #CCC;
+        border: 1px solid #555;
+        border-radius: 5px;
+        padding: 5px;
+    }
 `;

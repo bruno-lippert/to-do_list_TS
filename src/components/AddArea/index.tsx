@@ -15,10 +15,16 @@ export default function AddArea({onEnter} : Props) {
     }
   }
 
+  const addTask = () => {
+    onEnter(input)
+    setInput('')
+  }
+
   return (
     <Styles.Container>
       <div className='image'>➕</div>
       <input type="text" placeholder='Adicione' value={input} onChange={e => setInput(e.target.value)} onKeyUp={handleKeyUp}/>
+      <button type='submit' className='send' onClick={() => addTask()}>Enviar</button>
     </Styles.Container>
 
   )
